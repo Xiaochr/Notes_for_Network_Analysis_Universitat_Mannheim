@@ -22,3 +22,7 @@ This repository may be updated less often, because the final exam seems to be fa
     - Degree centrality
     - Closeness centrality
     - Betweenness centrality
+
+- [Week6](week6_graph_partitioning/Graph_partitioning.md)
+    - Kernighan-Lin Algorithm
+    - Spectral Partitioning

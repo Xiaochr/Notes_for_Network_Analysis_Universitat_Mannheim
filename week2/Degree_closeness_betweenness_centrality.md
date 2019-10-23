@@ -4,9 +4,9 @@
 
 ## Contents
 
-- [Degree Centrality](##21)
-- [Closeness Centrality](##22)
-- [Betweenness Centrality](##23)
+- [Degree Centrality](#21)
+- [Closeness Centrality](#22)
+- [Betweenness Centrality](#23)
 
 ---
 

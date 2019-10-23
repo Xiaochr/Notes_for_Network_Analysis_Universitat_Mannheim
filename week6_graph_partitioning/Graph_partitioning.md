@@ -4,8 +4,8 @@
 
 ## Contents
 
-- [Kernighan-Lin Algorithm](##1)
-- [Spectral Partitioning](##2)
+- [Kernighan-Lin Algorithm](#1)
+- [Spectral Partitioning](#2)
 
 <h2 id = "1">Kernighan-Lin Algorithm</h2>
 
@@ -113,7 +113,7 @@ So the simplified optimization problem:
 
 Use Lagrange multiplier, the problem becomes: 
 
-- Find $\mathbf{s}_{relaxed}$ that minimize $\sum_{i j} L_{i j} s_{i} s_{j}+\lambda\left(n-\sum_{i} s_{i}^{2}\right)$. 
+- Minimize $\sum_{i j} L_{i j} s_{i} s_{j}+\lambda\left(n-\sum_{i} s_{i}^{2}\right)$. 
 
 - Steps: 
     1. 求各个s的偏导
@@ -122,7 +122,9 @@ Use Lagrange multiplier, the problem becomes:
         - That is $\mathbf{Ls} = \lambda \mathbf{s}$
     3. $\mathbf{s_tLs}$ is minimum when $\lambda$ is min and $\lambda > 0$. That is, **$\lambda$ is the second smallest eigenvalue of $\mathbf{L}$.**
 
-- $R_{relaxed} = \frac{1}{4} \lambda_2 n$, $\mathbf{s}_{relaxed} = \mathbf{v_2}$. $\mathbf{s}^*$ is the vector with $s_i \in \{-1, 1\}$ that is closest to $\mathbf{s}_{relaxed}$. 
+- $R_{relaxed} = \frac{1}{4} \lambda_2 n$, $\mathbf{s}_{relaxed} = \mathbf{v_2}$.
+ 
+- $\mathbf{s}^*$ is the vector with $s_i \in \{-1, 1\}$ that is closest to $\mathbf{s}_{relaxed}$. 
 
 - Algorithm Steps for Simplified Problem
 

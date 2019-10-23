@@ -18,10 +18,13 @@ This repository may be updated less often, because the final exam seems to be fa
 
 ## Contents
 
-- [Week2](week2_degree_closeness_betweenness_centrality/Degree_closeness_betweenness_centrality.md)
+- [Week2](week2/Degree_closeness_betweenness_centrality.md)
     - Degree centrality
     - Closeness centrality
     - Betweenness centrality
+
+- Week3
+    - [Eigenvector centrality](week3/Eigenvector_centrality.md)
 
 - [Week6](week6_graph_partitioning/Graph_partitioning.md)
     - Kernighan-Lin Algorithm

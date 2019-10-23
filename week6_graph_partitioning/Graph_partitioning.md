@@ -2,7 +2,12 @@
 
 <h1 id = "6">Graph Partitioning</h1>
 
-## Kernighan-Lin Algorithm
+## Contents
+
+- [Kernighan-Lin Algorithm](##1)
+- [Spectral Partitioning](##2)
+
+<h2 id = "1">Kernighan-Lin Algorithm</h2>
 
 Local search, greedy algorithm. 
 
@@ -64,7 +69,7 @@ This makes the algorithm inapplicable to networks bigger than a couple of thousa
 
 ---
 
-## Spectral Partitioning
+<h2 id = "2">Spectral Partitioning</h2>
 
 It works with **Undirected** graphs. **Unweighted** or **positively weighted** graphs.
 

@@ -2,7 +2,15 @@
 
 <h1 id = "2">Degree, Closeness and Betweenness Centrality</h1>
 
-## Degree Centrality
+## Contents
+
+- [Degree Centrality](##21)
+- [Closeness Centrality](##22)
+- [Betweenness Centrality](##23)
+
+---
+
+<h2 id = "21">Degree Centrality</h2>
 
 The number of edges connected to a node.
 
@@ -18,7 +26,11 @@ For directed graphs:
 
 - Out-degree centrality: $\sum_{j=1}^{n} A_{j i}$
 
-## Closeness Centrality
+&nbsp;
+
+---
+
+<h2 id = "22">Closeness Centrality</h2>
 
 The average of the shortest distances to all the other nodes. 
 
@@ -48,7 +60,11 @@ For directed graphs:
 
     - $C_{c}^{\prime}(i)=\frac{1}{n-1} \sum_{j=1 \atop j \neq i}^{n} \frac{1}{d(i, j)}$
 
-## Betweenness Centrality
+&nbsp;
+
+---
+
+<h2 id = "23">Betweenness Centrality</h2>
 
 The extent to which a node lies on the shortest paths between the other nodes. 
 

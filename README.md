@@ -29,3 +29,10 @@ This repository may be updated less often, because the final exam seems to be fa
 - [Week6](week6_graph_partitioning/Graph_partitioning.md)
     - Kernighan-Lin Algorithm
     - Spectral Partitioning
+
+- [Week7](week7_community_detection/Community_detection.md)
+    - Girvan-Newman Algorithm
+    - Modularity Maximization Algorithms
+        - Spectral Modularity Maximization
+        - Louvain Algorithm
+    - Label Propagation Algorithm

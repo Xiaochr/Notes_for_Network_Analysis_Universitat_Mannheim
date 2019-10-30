@@ -49,7 +49,10 @@ A divisive method
 
 ### Preparation
 
-- $s_{i}=\{\begin{array}{l}{+1 \text { if } i \text { belongs to } V_{1}} \\ {-1 \text { if } i \text { belongs to } V_{2}}\end{array}$, then $\delta\left(c_{i}, c_{j}\right)=\frac{1}{2}\left(s_{i} s_{j}+1\right)$
+- $$
+s_{i}=\left\{\begin{array}{l}{+1 \text { if } i \text { belongs to } V_{1}} \\ {-1 \text { if } i \text { belongs to } V_{2}}\end{array}\right.
+$$
+then $\delta\left(c_{i}, c_{j}\right)=\frac{1}{2}\left(s_{i} s_{j}+1\right)$
 
 - Define **modularity matrix B**, $B_{i j}=A_{i j}-\frac{k_{i} k_{j}}{2 m}$
 

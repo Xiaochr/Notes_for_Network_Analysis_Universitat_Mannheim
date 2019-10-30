@@ -49,7 +49,7 @@ A divisive method
 
 ### Preparation
 
-- $s_{i}=\left\{\begin{array}{l}{+1 \text { if } i \text { belongs to } V_{1}} \\ {-1 \text { if } i \text { belongs to } V_{2}}\end{array}\right.$, then $\delta\left(c_{i}, c_{j}\right)=\frac{1}{2}\left(s_{i} s_{j}+1\right)$
+- $s_{i}=\{\begin{array}{l}{+1 \text { if } i \text { belongs to } V_{1}} \\ {-1 \text { if } i \text { belongs to } V_{2}}\end{array}$, then $\delta\left(c_{i}, c_{j}\right)=\frac{1}{2}\left(s_{i} s_{j}+1\right)$
 
 - Define **modularity matrix B**, $B_{i j}=A_{i j}-\frac{k_{i} k_{j}}{2 m}$
 
@@ -87,7 +87,7 @@ A divisive method
 
 - $\Delta Q\left(c_{x}\right)= Q_{after} - Q_{before} = \frac{1}{4 m} \sum_{i j \in c_{x}} B_{i j}\left(s_{i} s_{j}+1\right)-\frac{1}{2 m} \sum_{i j \in c_{x}} B_{i j}=\frac{1}{4 m}\left(\sum_{i, j \in c_{x}} B_{i j} s_{i} s_{j}-\sum_{i, j \in c_{x}} B_{i j}\right)$
 
-- Define **D** as $D_{i j}=\left\{\begin{array}{ll}{\sum_{k} B_{i k},} & {\text { if } i=j} \\ {0} & {\text { otherwise }}\end{array}\right.$, then $\sum_{i, j \in c_{x}} B_{i j}=\sum_{i, j \in c_{x}} D_{i j}=\sum_{i, j \in c_{x}} D_{i j} s_{i} s_{j}=\sum_{i, j \in c_{x}}\left(s_{i} s_{j} \delta_{i j} \sum_{k \in c_{x}} B_{i k}\right)$. 
+- Define **D** as $D_{i j}=\{\begin{array}{ll}{\sum_{k} B_{i k},} & {\text { if } i=j} \\ {0} & {\text { otherwise }}\end{array}$, then $\sum_{i, j \in c_{x}} B_{i j}=\sum_{i, j \in c_{x}} D_{i j}=\sum_{i, j \in c_{x}} D_{i j} s_{i} s_{j}=\sum_{i, j \in c_{x}}\left(s_{i} s_{j} \delta_{i j} \sum_{k \in c_{x}} B_{i k}\right)$. 
 
 - Hence $\Delta Q\left(c_{x}\right)=\frac{1}{4 m}\left(\sum_{i, j \in c_{x}} B_{i j} s_{i} s_{j}-\sum_{i, j \in c_{x}}\left(s_{i} s_{j} \delta_{i j} \sum_{k \in c_{x}} B_{i k}\right)\right)=\frac{1}{4 m} \sum_{i, j \in c_{x}}\left(B_{i j}-\delta_{i j} \sum_{k \in c_{x}} B_{i k}\right) s_{i} s_{j} = \frac{1}{4m} \mathbf{s^TB}^{(c_x)}\mathbf{s}$
     - $\mathbf{B}^{(c_x)}$ is community modularity matrix. 

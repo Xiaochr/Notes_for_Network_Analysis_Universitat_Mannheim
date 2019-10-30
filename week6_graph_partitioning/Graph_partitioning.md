@@ -78,7 +78,7 @@ It works with **Undirected** graphs. **Unweighted** or **positively weighted** g
 - The Laplacian Matrix
 
     - $\mathbf{L} = \mathbf{D} - \mathbf{A}$
-        - $\mathbf{D}$ is the diagonal matrix with node degrees on the diagonal. $D_{i j}=\{\begin{array}{ll}{k_{i}} & {\text { if } i=j} \\ {0} & {\text { otherwise }}\end{array}.$
+        - $\mathbf{D}$ is the diagonal matrix with node degrees on the diagonal. $D_{i j}=\{\begin{array}{ll}{k_{i}} & {\text { if } i=j} \\ {0} & {\text { otherwise }}\end{array}\}.$
         
     - Properties: 
         - The Laplacian matrix is symmetrical. It has real eigenvalues. 
@@ -90,7 +90,7 @@ It works with **Undirected** graphs. **Unweighted** or **positively weighted** g
 
     - Consider a division of the nodes of the network into two groups $V_1$ and $V_2$. Then the cut-size: $R=\sum_{i \in V_{1}} \sum_{j \in V_{2}} A_{i j}$. 
 
-    - Define $\mathbf{s}$: $s_{i}=\{\begin{array}{l}{+1 \text { if } i \in V_{1}} \\ {-1 \text { if } i \in V_{2}}\end{array}.$
+    - Define $\mathbf{s}$: $s_{i}=\{\begin{array}{l}{+1 \text { if } i \in V_{1}} \\ {-1 \text { if } i \in V_{2}}\end{array}\}.$
 
 - Rewriting $\quad R = \frac{1}{4} s^{\mathrm{T}} \mathrm{Ls}$
 

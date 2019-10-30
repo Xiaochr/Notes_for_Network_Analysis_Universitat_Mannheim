@@ -81,7 +81,7 @@ A divisive method
     - Otherwise leave $c_x$ intact
     - repeat until there are no more communities whose bisection would produce a positive modularity change.
 
-- $Q_{\text {before}}=\frac{1}{2 m} \sum_{i j} B_{i j} \delta(c_{i}, c_{j})=\frac{1}{2 m} \sum_{c \in C} \sum_{i j \in c} B_{i j}=\frac{1}{2 m} \sum_{c \in C-\left\{c_{x}\right\}} \sum_{i j \in c} B_{i j}+\frac{1}{2 m} \sum_{i j \in c_{x}} B_{i j}$
+- $Q_{\text {before}}=\frac{1}{2 m} \sum_{i j} B_{i j} \delta(c_{i}, c_{j})=\frac{1}{2 m} \sum_{c \in C} \sum_{i j \in c} B_{i j}=\frac{1}{2 m} \sum_{c \in C-\{c_{x}\}} \sum_{i j \in c} B_{i j}+\frac{1}{2 m} \sum_{i j \in c_{x}} B_{i j}$
 
 - $Q_{a f t e r}=\frac{1}{2 m} \sum_{c \in C-\{c_{x}\}{i} j \in c} \sum_{i j \in c_{x}} B_{i j \in c_{x}} B_{i j} \delta\left(c_{i}, c_{j}\right)$
 

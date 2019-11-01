@@ -25,6 +25,8 @@ This repository may be updated less often, because the final exam seems to be fa
 
 - Week3
     - [Eigenvector centrality](week3/Eigenvector_centrality.md)
+    - [PageRank](week3/PageRank.md)
+    - [HITS](week3/HITS.md)
 
 - [Week6](week6_graph_partitioning/Graph_partitioning.md)
     - Kernighan-Lin Algorithm

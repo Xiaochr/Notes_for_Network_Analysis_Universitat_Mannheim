@@ -25,16 +25,16 @@ Clustering coefficient is a measure used to quantify transitivity in a network /
 
 #### 1. Global Clustering Coefficient
 
-$$C = \frac{\#\ closed\ paths\ of\ length\ 2}{\#\ paths\ of\ length\ 2}\\ = \frac{6 \times \#\ triangles}{\#\ paths\ of\ length\ 2}$$
+$$C = \frac{the\ number\ of\ closed\ paths\ of\ length\ 2}{the\ number\ of\ paths\ of\ length\ 2}\\ = \frac{6 \times the\ number\ of\ triangles}{the\ number\ of\ paths\ of\ length\ 2}$$
 
 - In directed situation, pay attention to the direction! 
 
 #### 2. Local Clustering Coefficient
 
-$$C_i = \frac{\#\ pairs\ of\ neighbors\ of\ i\ that\ are\ connected}{\#\ pairs\ of\ neighbors\ of\ i}$$
+$$C_i = \frac{the\ number\ of\ pairs\ of\ neighbors\ of\ i\ that\ are\ connected}{the\ number\ of\ pairs\ of\ neighbors\ of\ i}$$
 
 - You can see the example in the slides p11 to have a better understanding. 
-- $\#\ pairs\ of\ neighbors\ of\ i = \frac{k_i(k_i - 1)}{2}$
+- $the\ number\ of\ pairs\ of\ neighbors\ of\ i = \frac{k_i(k_i - 1)}{2}$
 - Nodes with high local clustering coefficient have neighbors which are themselves neighbors. 
 - **High** local clustering coefficient, more likely **low** betweenness centrality. Because the neighbors are linked to each other, short cuts, no need to go through A. 
 

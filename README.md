@@ -28,6 +28,13 @@ This repository may be updated less often, because the final exam seems to be fa
     - [PageRank](week3/PageRank.md)
     - [HITS](week3/HITS.md)
 
+- [Week4](week4_neighborhood_patterns/Neighborhood_patterns.md) 
+    - Clustering Coefficient
+        - Global Clustering Coefficient
+        - Local Clustering Coefficient
+        - Average Local Clustering Coefficient
+    - The Strength of Weak Ties Theory
+
 - [Week6](week6_graph_partitioning/Graph_partitioning.md)
     - Kernighan-Lin Algorithm
     - Spectral Partitioning

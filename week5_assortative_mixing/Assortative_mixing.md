@@ -42,10 +42,9 @@ $$\operatorname{mixing}=\frac{1}{2 m} \sum_{i j}\left(A_{i j}-\frac{k_{i} k_{j}}
 
 ### Normalized
 
-$$\operatorname{mixing}_{\max }=\frac{1}{2 m}\left(2 m-\sum_{i j} \frac{k_{i} k_{j}}{2 m} \delta\left(c_{i}, c_{j}\right)\right)$$
-$$\operatorname{mixing}_{n o r m}=\frac{\operatorname{mixing}}{m i x i n g_{\max }}=\frac{\sum_{i j}\left(A_{i j}-\frac{k_{i} k_{j}}{2 m}\right) \delta\left(c_{i}, c_{j}\right)}{2 m-\sum_{i j} \frac{k_{i} k_{j}}{2 m} \delta\left(c_{i}, c_{j}\right)}$$
-
-Sometimes this is called **assortativity coefficient**. 
+- $\operatorname{mixing}_{\max }=\frac{1}{2 m}\left(2 m-\sum_{i j} \frac{k_{i} k_{j}}{2 m} \delta\left(c_{i}, c_{j}\right)\right)$
+- $\operatorname{mixing}_{n o r m}=\frac{\operatorname{mixing}}{m i x i n g_{\max }}=\frac{\sum_{i j}\left(A_{i j}-\frac{k_{i} k_{j}}{2 m}\right) \delta\left(c_{i}, c_{j}\right)}{2 m-\sum_{i j} \frac{k_{i} k_{j}}{2 m} \delta\left(c_{i}, c_{j}\right)}$
+    - Sometimes this is called **assortativity coefficient**. 
 
 ### Alternative Form
 

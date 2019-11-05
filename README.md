@@ -35,6 +35,12 @@ This repository may be updated less often, because the final exam seems to be fa
         - Average Local Clustering Coefficient
     - The Strength of Weak Ties Theory
 
+- [Week5](week5_assortative_mixing/Assortative_mixing.md)
+    - Assortative mixing
+        - By Enumerative Characteristics
+        - By Scalar Values
+        - By Node Degree
+
 - [Week6](week6_graph_partitioning/Graph_partitioning.md)
     - Kernighan-Lin Algorithm
     - Spectral Partitioning

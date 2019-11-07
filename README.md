@@ -58,6 +58,6 @@ This repository may be updated less often, because the final exam seems to be fa
         - $G(n, p)$ Erdos-Renyi model
         - Configuration model
         - Small world model of Watts and Strogatz
-    - Growing Random Graphs
+    - [Growing Random Graphs](week10_growing_random_graphs/Growing_random_graphs.md)
         - Uniform Randomness
         - BA model (Preferential attachment model of Barabásiand Albert)

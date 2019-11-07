@@ -51,3 +51,13 @@ This repository may be updated less often, because the final exam seems to be fa
         - Spectral Modularity Maximization
         - Louvain Algorithm
     - Label Propagation Algorithm
+
+- Week 9 & 10 Random Graphs
+    - Static Random Graphs
+        - $G(n, m)$ model
+        - $G(n, p)$ Erdos-Renyi model
+        - Configuration model
+        - Small world model of Watts and Strogatz
+    - Growing Random Graphs
+        - Uniform Randomness
+        - BA model (Preferential attachment model of Barabásiand Albert)

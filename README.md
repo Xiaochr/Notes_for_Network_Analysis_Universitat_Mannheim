@@ -39,16 +39,18 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
         - By Scalar Values
         - By Node Degree
 
-- [Week6](week6_graph_partitioning/Graph_partitioning.md)
-    - Kernighan-Lin Algorithm
-    - Spectral Partitioning
+- Methods of Grouping
 
-- [Week7](week7_community_detection/Community_detection.md)
-    - Girvan-Newman Algorithm
-    - Modularity Maximization Algorithms
-        - Spectral Modularity Maximization
-        - Louvain Algorithm
-    - Label Propagation Algorithm
+    - [Week6 Graph Partitioning](week6_graph_partitioning/Graph_partitioning.md)
+        - Kernighan-Lin Algorithm
+        - Spectral Partitioning
+
+    - [Week7 Community Detection](week7_community_detection/Community_detection.md)
+        - Girvan-Newman Algorithm
+        - Modularity Maximization Algorithms
+            - Spectral Modularity Maximization
+            - Louvain Algorithm
+        - Label Propagation Algorithm
 
 - Week 9 & 10 Random Graphs
     - Static Random Graphs
@@ -59,3 +61,5 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
     - [Growing Random Graphs](week10_growing_random_graphs/Growing_random_graphs.md)
         - Uniform Randomness
         - BA model (Preferential attachment model of Barabásiand Albert)
+
+- [Week11 Diffusion of Innovation](week11_diffusion_of_innovation/Diffusion_of_innovation.md)

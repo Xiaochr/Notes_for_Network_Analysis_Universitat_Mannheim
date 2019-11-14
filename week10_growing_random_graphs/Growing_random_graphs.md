@@ -73,8 +73,8 @@ A model of **undirected** networks, based on a similar intuition as Price’s mo
 
 - $p_k^{(t)}$ is the fraction of nodes of degree k at time t. 
 - There are t pre-existing nodes. The smallest degree in the network is b. 
-- **There are $tb$ pre-existing edges and $(t + 1)b$ edges in total.** 
-    - Why? It is an undirected graph, the first b+1 nodes are fully connected, so each of them has degree of b, then the number of nodes are $\frac{b(b+1)}{2}$, this contradict with $tb$. Confusing...
+- There are $tb$ pre-existing edges and $(t + 1)b$ edges in total. 
+    - $tb$ is only an approximation when t is large. 
 - $(t+1)p_k^{(t)}$ is the total number of nodes with degree k at time t.
 - At time t, a pre-existing node of degree k receives an edge with probability $\frac{k}{\sum_{i=0}^{t-1} k_{i}}=\frac{k}{2 t b}$
 - The number of nodes with degree k at time t: 

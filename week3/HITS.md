@@ -12,7 +12,8 @@
     - $\mathbf{x}(t + 1) = \alpha \beta \mathbf{AA^Tx}(t)$
     - $\mathbf{y}(t + 1) = \alpha \beta \mathbf{A^TAy}(t)$
 
-- $x^*$ is the principal eigenvector of $AA^T$. $y^*$ is the principal eigenvector of $A^TA$. 
+- $x^*$ is the principal eigenvector of $AA^T$. 
+- $y^*$ is the principal eigenvector of $A^TA$. 
 
 ### Iterative Computation
 

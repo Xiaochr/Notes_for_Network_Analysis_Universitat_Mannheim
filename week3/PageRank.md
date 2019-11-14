@@ -2,11 +2,11 @@
 
 <h1 id = "3">PageRank</h1>
 
-$\mathbf{x}(t+1) = \alpha \mathbf{Mx}(t) + \beta$
+$$\mathbf{x}(t+1) = \alpha \mathbf{Mx}(t) + \beta$$
 
 ## Naive PageRank
 
-$\mathbf{x}(t+1) = \alpha \mathbf{Mx}(t)$
+$$\mathbf{x}(t+1) = \alpha \mathbf{Mx}(t)$$
 
 - Transition matrix **M**, $M_{i j}=\{\begin{array}{cc}{\frac{A_{i j}}{k_{j}^{o u t}}} & {\text { if } k_{j}^{o u t}>0} \\ {0} & {\text { otherwise }}\end{array}\}.$
 

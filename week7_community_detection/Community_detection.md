@@ -125,8 +125,8 @@ Agglomerative algorithm: it starts with each node in its own community, communit
     - $a_c$ 是c里node所有edge的个数（不管连在里面还是外边）占总edge个数的比例。
 
 - Calculate $\Delta Q$
-    - $Q_{\text {before}}=\sum_{c \in c-\left[c_{x} c_{y}\right\}} Q_{c}+Q_{c_{x}}+Q_{c_{y}}$
-    - $Q_{a f t e r}=\sum_{c \in c-\left\{c_{x}^{-}, c_{y}^{+}\right\}} Q_{c}+Q_{c_{x}^{-}}+Q_{c_{y}^{+}}$
+    - $Q_{\text {before}}=\sum_{c \in c-\{c_{x} c_{y}\}} Q_{c}+Q_{c_{x}}+Q_{c_{y}}$
+    - $Q_{a f t e r}=\sum_{c \in c-\{c_{x}^{-}, c_{y}^{+}\}} Q_{c}+Q_{c_{x}^{-}}+Q_{c_{y}^{+}}$
     - $\Delta Q\left(x, c_{x}, c_{y}\right)=Q_{c_{x}^{-}}+Q_{c_{y}^{+}}-Q_{c_{x}}-Q_{c_{y}}$
     - Therefore, the computation of $\Delta Q$ requires the computation over the directly affected communities, not the entire network
 
@@ -176,8 +176,6 @@ Does not optimize any objective function! Non-parametric: does not require the n
 &nbsp;
 
 ---
-
-THE END
 
 &nbsp;
 

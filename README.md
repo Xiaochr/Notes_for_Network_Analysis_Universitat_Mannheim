@@ -53,7 +53,7 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
         - Label Propagation Algorithm
 
 - Week 9 & 10 Random Graphs
-    - Static Random Graphs
+    - [Static Random Graphs](week9_static_random_graphs/Static_random_graphs.md)
         - $G(n, m)$ model
         - $G(n, p)$ Erdos-Renyi model
         - Configuration model

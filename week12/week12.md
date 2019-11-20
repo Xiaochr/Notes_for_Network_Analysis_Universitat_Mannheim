@@ -22,7 +22,7 @@ $$q_{i}(t)=1-(1-p)(1-\beta)^{k_{i, C(t-1)}}$$
 
 - The probability that a node i is active at time t: 
 
-$$x_{i}(t)=1-\prod_{t^{\prime}=0}^{t}(1-q_{i}(t^{\prime})) = 1-(1-p)^{t+1}(1-\beta)^{\sum_{t^{\prime}=0}^{t}k_{i, C\left(t^{\prime}-1\right)}} \\=1-(1-p)^{t+1}(1-\beta)^{k_{i, X(t-1)}}$$
+$$x_{i}(t)=1-\prod_{t^{\prime}=0}^{t}(1-q_{i}(t^{\prime})) = 1-(1-p)^{t+1}(1-\beta)^{\sum_{t^{\prime}=0}^{t}k_{i, C\left(t^{\prime}-1\right)}} =1-(1-p)^{t+1}(1-\beta)^{k_{i, X(t-1)}}$$
 
 - Note that the probabilities at time t are computed based on the known state of the neighbors at time t-1, not on estimations! 
 

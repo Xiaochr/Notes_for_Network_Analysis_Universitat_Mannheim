@@ -63,3 +63,11 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
         - BA model (Preferential attachment model of Barabásiand Albert)
 
 - [Week11 Diffusion of Innovation](week11_diffusion_of_innovation/Diffusion_of_innovation.md)
+
+- [Week 12 Diffusion of Innovation(continued)](week12/week12.md)
+    - Independent Cascade Model
+        - Homogeneous Population 
+        - Heterogeneous Population
+    - Threshold Model
+        - Homogeneous Population 
+        - Heterogeneous Population

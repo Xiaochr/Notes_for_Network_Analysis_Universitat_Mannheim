@@ -35,11 +35,10 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
         - Average Local Clustering Coefficient
     - The Strength of Weak Ties Theory
 
-- [Week5](week5_assortative_mixing/Assortative_mixing.md)
-    - Assortative mixing
-        - By Enumerative Characteristics
-        - By Scalar Values
-        - By Node Degree
+- [Week5 Assortative mixing](week5_assortative_mixing/Assortative_mixing.md)
+    - By Enumerative Characteristics
+    - By Scalar Values
+    - By Node Degree
 
 - Methods of Grouping
 

@@ -10,6 +10,8 @@ Because there are too many definitions, math formulas and algorithms in the cour
 
 I think it's less meaningful to copy the definitions from the slides to github, so this repository will mostly include the related algorithms, which are also the most confusing for me. lol
 
+All the lecture materials are completed now, and the final exam will soon take place...
+
 Again, if you are from **Tsinghua SEM** and plan to exchange in **the University of Mannheim** and happen to be interested in *Network Analysis*, you can go through this repository quickly and see whether this course is what you want. Welcome to contact me if you have further questions! 
 
 ---

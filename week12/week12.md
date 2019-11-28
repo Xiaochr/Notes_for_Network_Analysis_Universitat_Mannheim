@@ -5,6 +5,7 @@
 ## Content
 - [Independent Cascade Model](#1)
 - [Threshold Model](#2)
+- [Influence Maximization](#3)
 
 <h2 id = "1">1. Independent Cascade Model</h2>
 
@@ -70,6 +71,50 @@ $$x_{i}(t)=1-\prod_{t^{\prime}=0}^{t}(1-q_{i}(t^{\prime})) = 1-(1-p)^{t+1}(1-\be
 - High density clusters are the onlyobstacles to cascades. 
 
 - Local bridges offer the opportunity to learn about new things, to spread information
+
+### 2.1 Heterogeneous Population
+
+#### Without Known Network Structure
+
+- Notation: 
+    - $\theta_i$: the threshold of individual i
+    - $f(\theta)$: the fraction of individuals with threshold $\theta$
+    - $F(\theta)$: the fraction of individuals with threshold smaller or equal to $\theta$. (cumulative distribution)
+    - $x_t$: the fraction of people who have adopted by time t
+
+$$x_{t+1}=x_{t}+f(x_{t})$$
+$$x_{t+1}=F(x_{t})$$
+
+- Equilibrium point: $x^{*}=F(x^{*})$
+
+- Analysis of dynamics
+    - Start with a threshold lower than the adopting population. 
+    - Start with a threshold higher than the adopting population. 
+
+- Stability
+    - The equilibrium points where $F(x^{*}-\varepsilon)>x^{*}-\varepsilon, \varepsilon \rightarrow +0, \varepsilon > 0$, are **stable** equilibrium points. 
+    - The equilibrium points where $F(x^{*}-\varepsilon)<x^{*}-\varepsilon, \varepsilon \rightarrow +0, \varepsilon > 0$, are **unstable** equilibrium points. 
+
+- Analysis of cascades for some normal distributions of thresholds 
+    - Lower $\mu$: more population will adopt
+    - Higher $\sigma$: Increase the heterogeneity, more population will adopt
+
+#### With Network Structure
+
+- $f_{v, A}=\frac{k_{v, A}}{k_{v}}$. v adopts A if $f_{v, A} a_{v}>\left(1-f_{v, A}\right) b_{v}$, that is $f_{v, A}>\frac{b_{v}}{a_{v}+b_{v}}$. 
+
+- Hence now each node has its own threshold: $\theta_{v, A}=\frac{b_{v}}{a_{v}+b_{v}}$
+
+- The early adopters must have access to easily influenceable individuals. 
+
+<h2 id = "3">3. Influence Maximization</h2>
+
+- Find a subset S of x to activate at time $t=0$, to maximize the total number of activated nodes $\sigma(S)$. 
+
+- It's a NP-hard problem. Approximately $O(n^x)$
+
+- Greedy Algorithm
+    - 从S为空集开始，每次把能让$\sigma$增加最多的node include进来。
 
 &nbsp;
 

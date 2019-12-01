@@ -66,11 +66,11 @@ For directed graphs:
 
 <h2 id = "23">Betweenness Centrality</h2>
 
-The extent to which a node lies on the shortest paths between the other nodes. 
+The proportion of shortest path that pass through that vertex, out of all the pairs of nodes in the graph. 
 
 For undirected graphs:
 
-- $C_B(i) = \frac{2}{(n-1)(n-2)} \sum_{s<t \atop s, t \neq i} \frac{n_{s t}^{i}}{g_{s t}}$
+$$C_B(i) = \frac{2}{(n-1)(n-2)} \sum_{s<t \atop s, t \neq i} \frac{n_{s t}^{i}}{g_{s t}}$$
 
 - $g_{st}$ denotes the number of shortest paths between vertices s and t. 
 
@@ -78,7 +78,7 @@ For undirected graphs:
 
 For directed graphs:
 
-- $C_B^{dir}(i) = \frac{1}{(n-1)(n-2)} \sum_{s<t \atop s, t \neq i} \frac{n_{s t}^{i}}{g_{s t}}$
+$$C_B^{dir}(i) = \frac{1}{(n-1)(n-2)} \sum_{s<t \atop s, t \neq i} \frac{n_{s t}^{i}}{g_{s t}}$$
 
 - $(n - 1)(n - 2)$ denotes the number of directed pairs of nodes excluding i. 
 

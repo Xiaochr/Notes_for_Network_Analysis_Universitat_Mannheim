@@ -70,7 +70,7 @@ $$mixing_{norm} = \frac{mixing}{mixing_{max}} = \frac{\Sigma_{r \in C}(e_r - a_r
 1. Each edge from node i to j can be written as the pair $(x_i, x_j)$
 2. Compute the assortativity coefficient as the **Pearson correlation coefficient** between the vector of values of the first endnode and the vector of values of the second endnode across all edge
 
-$$r_{XY} = \frac{Cov_{XY}}{st\_dev_x st\_dev_y}$$
+$$r_{XY} = \frac{Cov_{XY}}{stdev_x stdev_y}$$
 
 - In our case the set of value of X is the same as the set of value of Y, since we consider an undirected graph. So $r_{XY} = \frac{cov_{XY}}{var_X}$
 
@@ -81,7 +81,7 @@ $$r_{XY} = \frac{Cov_{XY}}{st\_dev_x st\_dev_y}$$
 
 $$r=\frac{\operatorname{cov}}{v a r}=\frac{\sum_{i j}\left(A_{i j}-\frac{k_{i} k_{j}}{2 m}\right) x_{i} x_{j}}{\sum_{i j}\left(k_{i} \delta_{i j}-\frac{k_{i} k_{j}}{2 m}\right) x_{i} x_{j}}$$
 
-这里没有弄懂……下次要去问下
+How to prove?
 
 ## Assortative Mixing by Node Degree
 

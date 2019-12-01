@@ -84,7 +84,7 @@ It works with **Undirected** graphs. **Unweighted** or **positively weighted** g
         - The Laplacian matrix is symmetrical. It has real eigenvalues. 
         - The eigenvalues are non-negative for a graph with non-negative edge weights. 
         - One of its eigenvalues is equal to 0, for corresponding eigenvector vector $\mathbf{1} = (1,...,1)^T$. The sum of all elements on a row/column is 0. Hence $\mathbf{1^TL} = \mathbf{0^T}$ and $\mathbf{L1 = 0}$. 
-        - The second smallest eigenvalue of the Laplacian is non-zero iffthe graph is connected, called “algebraic connectivity”. 
+        - The second smallest eigenvalue of the Laplacian is non-zero iff the graph is connected, called “algebraic connectivity”. 
 
 - Formalizing the Cut-size
 

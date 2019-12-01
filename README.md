@@ -28,14 +28,18 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
     - [PageRank](week3/PageRank.md)
     - [HITS](week3/HITS.md)
 
-- [Week4](week4_neighborhood_patterns/Neighborhood_patterns.md) 
-    - Clustering Coefficient
-        - Global Clustering Coefficient
-        - Local Clustering Coefficient
-        - Average Local Clustering Coefficient
-    - The Strength of Weak Ties Theory
+- [Week4 Neighborhood Patterns](week4_neighborhood_patterns/Neighborhood_patterns.md)
+    - Reciprocity
+    - Transitivity
+        - Clustering Coefficient
+            - Global Clustering Coefficient
+            - Local Clustering Coefficient
+            - Average Local Clustering Coefficient
+        - Edge Embeddedness and Neighborhood Overlap
+        - Local Bridges and Structural Holes
+        - The Strength of Weak Ties Theory
 
-- [Week5 Assortative mixing](week5_assortative_mixing/Assortative_mixing.md)
+- [Week5 Assortative Mixing](week5_assortative_mixing/Assortative_mixing.md)
     - By Enumerative Characteristics
     - By Scalar Values
     - By Node Degree

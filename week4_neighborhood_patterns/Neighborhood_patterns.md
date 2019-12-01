@@ -2,7 +2,7 @@
 
 <h1 id = "4">Neighborhood Patterns</h1>
 
-## Riciprocity
+## Reciprocity
 
 - Measures the frequency of loops of length 2 in directed networks. 
 - Intuition: how likely a vertex that you point towards, points back to you. 
@@ -49,7 +49,7 @@ $$C_{avg} = \frac{1}{n} \Sigma_i C_i \\ = \frac{1}{n} \Sigma_i \frac{number\ of\
 - **Edge embeddedness** is the number of triangles the edge is part of. 
     - $emb(AB)$
 - **Neighborhood overlap** is the ratio of common neighbors out of the total set of neighbors. 
-    - $n_overlap(AB)$
+    - $n_{overlap}(AB)$
 - Nodes with many edges with high embeddedness tend to have relatively high clustering coefficient.
 - Pros and cons of high embeddedness: 
     - Pros: potentially trusted relations
@@ -57,7 +57,7 @@ $$C_{avg} = \frac{1}{n} \Sigma_i C_i \\ = \frac{1}{n} \Sigma_i \frac{number\ of\
 
 ### Local Bridges and Structural Holes
 
-- Edges with embeddedness zeroare called **local bridges**.
+- Edges with embeddedness 0 are called **local bridges**.
     - Their removal would make it significantly harder for the neighbors of the endpoints to reach each other. 
 - The regions of the graph around local bridges are called **structural holes**. 
 

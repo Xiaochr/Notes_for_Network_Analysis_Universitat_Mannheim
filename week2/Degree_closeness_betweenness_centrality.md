@@ -16,7 +16,7 @@ The number of edges connected to a node.
 
 For undirected graphs:
 
-- $C_{D}(i)=k_{i}=\sum_{j=1}^{n} A_{i j}=\sum_{j=1}^{n} A_{j i}$
+$$C_{D}(i)=k_{i}=\sum_{j=1}^{n} A_{i j}=\sum_{j=1}^{n} A_{j i}$$
 
 - Normalized: $C_{D}^{\prime}(i)=k_{i} /(n-1)=\frac{\sum_{j=1}^{n} A_{i j}}{n-1}=\frac{\sum_{j=1}^{n} A_{j i}}{n-1}$
 
@@ -36,7 +36,7 @@ The average of the shortest distances to all the other nodes.
 
 For undirected graphs: 
 
-- $C_{c}(i)=\frac{n-1}{\sum_{j=1}^{n} d(i, j)}$
+$$C_{c}(i)=\frac{n-1}{\sum_{j=1}^{n} d(i, j)}$$
 
 - $d(i, j)$ denotes the length of the shortest path between vertices i and j
 

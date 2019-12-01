@@ -13,9 +13,9 @@ A high eigenvector centrality indicates many neighbors or important neighbors or
 Initialize $\mathbf{x}(0)$, all the vertices equal to 1. 
 
 - When stable: 
-    - $\mathbf{x}^*= const \cdot \mathbf{A} \mathbf{x}^*$
+    - $\mathbf{x^*}= const \cdot \mathbf{A} \mathbf{x^*}$
     - $\mathbf{x}^*$ is an eigenvector of $\mathbf{A}$. 
-    - $\mathbf{x}^*=\lim _{t \rightarrow \infty} \mathbf{x}(t)=c_{1} \lambda_{1}^{t} \mathbf{v}_{1}$
+    - $\mathbf{x^*}=\lim _{t \rightarrow \infty} \mathbf{x}(t)=c_{1} \lambda_{1}^{t} \mathbf{v}_{1}$
 
 - Iteration Steps: 
     - $\mathbf{x}(1)=\mathbf{A} \mathbf{x}(0)$

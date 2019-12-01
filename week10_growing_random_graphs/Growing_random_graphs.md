@@ -9,7 +9,7 @@
 
 Growing random graphs are models in which new nodes are born over time and form edges to existing nodes when they are born. 
 
-- Model a process that is closer to real work network formation than Poisson models
+- Model a process that is closer to real world network formation than Poisson models
 - Result in networks with richer degree distributions, closer to real network degree distributions
 
 <h2 id = "1">Uniform randomness –a baseline growing model</h2>

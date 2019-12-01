@@ -128,7 +128,7 @@ $$p_{i j}=\frac{k_{i} k_{j}}{2 m-1}$$
 
 - Real world networks have:
     - **Short average shortest paths**. Similar to networks formed at random. 
-    - **Relatively high avgclustering coefficient**. Similar to regular networks. 
+    - **Relatively high avg clustering coefficient**. Similar to regular networks. 
 
 ### To construct the model
 

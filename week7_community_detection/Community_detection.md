@@ -38,8 +38,9 @@
 
 - **Modularity** is the difference between the actual fraction of edges between nodes of the same type, and the expected fraction of edges between nodes of the same type if the edges were formed at random (while preserving node degree).
 
-- $Q=\frac{1}{m}\left(\frac{1}{2} \sum_{i j} A_{i j} \delta\left(c_{i}, c_{j}\right)-\frac{1}{2} \sum_{i j} \frac{k_{i} k_{j}}{2 m} \delta\left(c_{i}, c_{j}\right)\right)=\frac{1}{2 m} \sum_{i j}\left(A_{i j}-\frac{k_{i} k_{j}}{2 m}\right) \delta\left(c_{i}, c_{j}\right)$
-    - (actual - expected at random)
+$$Q=\frac{1}{m}\left(\frac{1}{2} \sum_{i j} A_{i j} \delta\left(c_{i}, c_{j}\right)-\frac{1}{2} \sum_{i j} \frac{k_{i} k_{j}}{2 m} \delta\left(c_{i}, c_{j}\right)\right)=\frac{1}{2 m} \sum_{i j}\left(A_{i j}-\frac{k_{i} k_{j}}{2 m}\right) \delta\left(c_{i}, c_{j}\right)$$
+
+- (actual - expected at random)
 
 - Intuitively, a good division of a network in communities, should be a division that has **high** modularity
 
@@ -93,7 +94,7 @@ $$\sum_{i, j \in c_{x}} B_{i j}=\sum_{i, j \in c_{x}} D_{i j}=\sum_{i, j \in c_{
 
 - Hence 
 
-$$\Delta Q\left(c_{x}\right)=\frac{1}{4 m}\left(\sum_{i, j \in c_{x}} B_{i j} s_{i} s_{j}-\sum_{i, j \in c_{x}}\left(s_{i} s_{j} \delta_{i j} \sum_{k \in c_{x}} B_{i k}\right)\right)=\frac{1}{4 m} \sum_{i, j \in c_{x}}\left(B_{i j}-\delta_{i j} \sum_{k \in c_{x}} B_{i k}\right) s_{i} s_{j} \\= \frac{1}{4m} \mathbf{s^TB}^{(c_x)}\mathbf{s}$$
+$$\Delta Q\left(c_{x}\right)=\frac{1}{4 m}\left(\sum_{i, j \in c_{x}} B_{i j} s_{i} s_{j}-\sum_{i, j \in c_{x}}\left(s_{i} s_{j} \delta_{i j} \sum_{k \in c_{x}} B_{i k}\right)\right)=\frac{1}{4 m} \sum_{i, j \in c_{x}}\left(B_{i j}-\delta_{i j} \sum_{k \in c_{x}} B_{i k}\right) s_{i} s_{j} = \frac{1}{4m} \mathbf{s^TB}^{(c_x)}\mathbf{s}$$
 
 - $\mathbf{B}^{(c_x)}$ is community modularity matrix. 
 

@@ -68,7 +68,7 @@ $$x_{i}(t)=1-\prod_{t^{\prime}=0}^{t}(1-q_{i}(t^{\prime})) = 1-(1-p)^{t+1}(1-\be
 
 - Define density $\rho$ as: each node in the set has at least a $\rho$ fraction of its neighbors in the set. 
 
-- High density clusters are the onlyobstacles to cascades. 
+- High density clusters are the only obstacles to cascades. 
 
 - Local bridges offer the opportunity to learn about new things, to spread information
 
@@ -85,15 +85,15 @@ $$x_{i}(t)=1-\prod_{t^{\prime}=0}^{t}(1-q_{i}(t^{\prime})) = 1-(1-p)^{t+1}(1-\be
 $$x_{t+1}=x_{t}+f(x_{t})$$
 $$x_{t+1}=F(x_{t})$$
 
-- Equilibrium point: $x^{*}=F(x^{*})$
+- Equilibrium point: $x^*=F(x^*)$
 
 - Analysis of dynamics
     - Start with a threshold lower than the adopting population. 
     - Start with a threshold higher than the adopting population. 
 
 - Stability
-    - The equilibrium points where $F(x^{*}-\varepsilon)>x^{*}-\varepsilon, \varepsilon \rightarrow +0, \varepsilon > 0$, are **stable** equilibrium points. 
-    - The equilibrium points where $F(x^{*}-\varepsilon)<x^{*}-\varepsilon, \varepsilon \rightarrow +0, \varepsilon > 0$, are **unstable** equilibrium points. 
+    - The equilibrium points where $F(x^*-\varepsilon)>x^*-\varepsilon, \varepsilon \rightarrow +0, \varepsilon > 0$, are **stable** equilibrium points. 
+    - The equilibrium points where $F(x^*-\varepsilon)<x^*-\varepsilon, \varepsilon \rightarrow +0, \varepsilon > 0$, are **unstable** equilibrium points. 
 
 - Analysis of cascades for some normal distributions of thresholds 
     - Lower $\mu$: more population will adopt

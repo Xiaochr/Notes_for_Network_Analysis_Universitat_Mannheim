@@ -46,8 +46,8 @@ $$c' = (n - 1)\Phi pf, \quad c' = cpf$$
     - But in power law networks with $\alpha \in [2, 3]$, removal of highest degree nodes is **highly destructive**. 
 
 - Power law networks are: 
-    - Very robustto random failure of nodes
-    - Very fragileto attacksthat target the highest-degree nodes
+    - Very robust to random failure of nodes
+    - Very fragile to attacks that target the highest-degree nodes
 
 ---
 

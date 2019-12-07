@@ -69,10 +69,15 @@ Again, if you are from **Tsinghua SEM** and plan to exchange in **the University
 
 - [Week11 Diffusion of Innovation](week11_diffusion_of_innovation/Diffusion_of_innovation.md)
 
-- [Week 12 Diffusion of Innovation(continued)](week12/week12.md)
+- [Week 12 & 13 Diffusion of Innovation(continued)](week12/week12.md)
     - Independent Cascade Model
         - Homogeneous Population 
         - Heterogeneous Population
     - Threshold Model
         - Homogeneous Population 
         - Heterogeneous Population
+
+- [Week 14 Epidemics in Networks](week14/Epidemics_in_networks.md)
+    - SI Model
+    - SIR Model
+    - SIS Model

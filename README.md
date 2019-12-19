@@ -6,13 +6,15 @@ University of Mannheim
 
 ## Introduction
 
-Because there are too many definitions, math formulas and algorithms in the course *Network Analysis*,  I finally decide to organize these knowledge in this new repository. 
+At first, I decided to open this repo because there are too many definitions, math formulas and algorithms in the course *Network Analysis*,  and I really need to organize these knowledge in a clear structure. 
 
-I think it's less meaningful to copy the definitions from the slides to github, so this repository will mostly include the related algorithms, which are also the most confusing for me. lol
+And it did work well for me based on my experience in this semester. 
 
-All the lecture materials are completed now, and the final exam will soon take place...
+This repo includes the most important algorithms and aspects in Network Analysis. The trivial concepts and definitions are not copied to this repo because I think it's not meaningful. 
 
-Again, if you are from **Tsinghua SEM** and plan to exchange in **the University of Mannheim** and happen to be interested in *Network Analysis*, you can go through this repository quickly and see whether this course is what you want. Welcome to contact me if you have further questions! 
+The repo is a complete version now. Since the course is finished and the final exam is over, this repo may not be updated after the last commit as well. 
+
+Again, if you are from **Tsinghua SEM** and plan to exchange in **the University of Mannheim** and happen to be interested in *Network Analysis*, you can go through this repository quickly and see whether this course is what you want. Feel free to contact me if you have further questions, I'm quite confident that I can help you with the course-related problems, because I got 1.0 (in German grade standard) in this course. lol
 
 ---
 
